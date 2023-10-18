@@ -3,16 +3,18 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++ build active file",
+            "label": "g++ build and run",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
                 "-g",
-                "${file}",
+                "${workspaceFolder}/vector.cpp",
+                "${workspaceFolder}/matrix.cpp",
+                "${workspaceFolder}/main.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/output"
             ],
             "options": {
-                "cwd": "/usr/bin"
+                "cwd": "C:\\msys64\\ucrt64\\bin"
             },
             "problemMatcher": [
                 "$gcc"

@@ -1,19 +1,32 @@
+// matrix.h
 #pragma once
 
-class mat2 {
+class Mat2 {
 public:
-    float elements[2][2];
-    mat2();
+    float m[2][2];
+
+    Mat2();
+    Mat2 operator+(const Mat2& mat);
+    Mat2 operator-(const Mat2& mat);
+    Mat2 operator*(const Mat2& mat);
 };
 
-class mat3 {
+class Mat3 {
 public:
-    float elements[3][3];
-    mat3();
+    float m[3][3];
+
+    Mat3();
+    Mat3 operator+(const Mat3& mat);
+    Mat3 operator-(const Mat3& mat);
+    Mat3 operator*(const Mat3& mat);
 };
 
-class mat4 {
+class Mat4 {
 public:
-    float elements[4][4];
-    mat4();
+    float m[4][4];
+
+    Mat4();
+    Mat4 operator+(const Mat4& mat);
+    Mat4 operator-(const Mat4& mat);
+    Mat4 operator*(const Mat4& mat);
 };
