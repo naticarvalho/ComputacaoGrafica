@@ -1,4 +1,4 @@
-# Projeto de Ray Tracing
+# Materiais Difusos
 
 ## Visão Geral
 
