@@ -36,7 +36,7 @@ Este projeto implementa um Ray Tracer simples seguindo os conceitos apresentados
 2. Execute o executável compilado.
 
     ```bash
-    ./raytracer
+    ./main
     ```
 ## Descrição da Cena
 
